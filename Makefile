@@ -1,7 +1,8 @@
 obj-m := acpi_call.o
 
 KVERSION := $(shell uname -r)
-KDIR := /lib/modules/$(KVERSION)/build
+KV := 5.12.0-rc3_1+
+KDIR := /lib/modules/$(KV)/build
 PWD := $(shell pwd)
 
 default:

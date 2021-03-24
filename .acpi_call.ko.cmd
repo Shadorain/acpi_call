@@ -1,0 +1,1 @@
+cmd_/home/shadow/Downloads/acpi_call/acpi_call.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/shadow/Downloads/acpi_call/acpi_call.ko /home/shadow/Downloads/acpi_call/acpi_call.o /home/shadow/Downloads/acpi_call/acpi_call.mod.o;  true
